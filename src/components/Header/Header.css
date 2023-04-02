@@ -1,9 +1,10 @@
 .banner-header {
-    background-color: lightslategray;
+    background-image: url("wood.jpeg");
     text-align: center;
     padding: 0.25em;
     text-shadow: 3px 3px 3px black;
-    color:darkgray;
+    color: burlywood;
     font-family: "Trirong", serif;
     font-size: 30px;
+
   }
