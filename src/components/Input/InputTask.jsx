@@ -13,7 +13,15 @@ function InputTask ({task, fetchTaskList}){
     }, []);
 
     // DeleteTask
-
+    const deleteTask = (e) => {
+        console.log(`Deleting task ${task.id}`);
+        axios.delete(`/todo/${task.id}`).then((response) => {
+            fetchTaskList();
+        }).catch((error) => {
+            console.log(`Error in deleteTask ${error}`);
+            alert('Something went wrong.');
+        })
+    }
     //CompleteTask
 
     return(
