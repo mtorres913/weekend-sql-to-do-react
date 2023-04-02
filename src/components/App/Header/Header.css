@@ -1,0 +1,9 @@
+.banner-header {
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 0.25em;
+    text-shadow: 3px 3px 3px black;
+    color:darkgray;
+    font-family: "Trirong", serif;
+    font-size: 30px;
+  }
